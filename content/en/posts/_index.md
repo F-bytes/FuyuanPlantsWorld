@@ -1,8 +1,9 @@
 ---
-title: "Essays"
-description: "A curated mix of technical essays and daily learnings."
+title: "Q&A"
+draft: "false"
+description: "General Q&A with our partners"
 ---
 
-# Essays
+# Q&A
 
-A curated mix of technical essays and daily learnings.
+General Q&A with our partners

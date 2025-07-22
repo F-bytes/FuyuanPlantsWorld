@@ -2,7 +2,7 @@ baseURL = "https://example.org/"
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 languageCode = "en-us"
-title = "Lightbi"
+title = "title"
 theme = "lightbi-hugo"
 
 # GitHub Pages configuration
@@ -71,14 +71,8 @@ contentDir = "content/en"
 languageCode = "en-US"
 languageName = "English"
 weight = 1
-title = "Lightbi"
+title = "Fuyuan-Plants-World"
 
-[languages.ml]
-contentDir = "content/ml"
-languageCode = "ml-IN"
-languageName = "Malayalam"
-weight = 2
-title = "ലൈറ്റ്ബി"
 
 # English Menu
 [[languages.en.menu.main]]
@@ -87,14 +81,14 @@ url = "/en/"
 weight = 1
 
 [[languages.en.menu.main]]
-name = "Blog"
+name = "Q&A"
 url = "/en/posts/"
-weight = 2
+weight = 3
 
 [[languages.en.menu.main]]
-name = "Notes"
+name = "Products"
 url = "/en/notes/"
-weight = 3
+weight = 2
 
 [[languages.en.menu.main]]
 name = "Tags"
@@ -106,31 +100,7 @@ name = "About"
 url = "/en/about/"
 weight = 5
 
-# Malayalam Menu
-[[languages.ml.menu.main]]
-name = "ഹോം"
-url = "/ml/"
-weight = 1
 
-[[languages.ml.menu.main]]
-name = "ബ്ലോഗ്"
-url = "/ml/posts/"
-weight = 2
-
-[[languages.ml.menu.main]]
-name = "കുറിപ്പുകൾ"
-url = "/ml/notes/"
-weight = 3
-
-[[languages.ml.menu.main]]
-name = "ടാഗുകൾ"
-url = "/ml/tags/"
-weight = 4
-
-[[languages.ml.menu.main]]
-name = "എന്നെക്കുറിച്ച്"
-url = "/ml/about/"
-weight = 5
 
 [sitemap]
 changefreq = "monthly"
